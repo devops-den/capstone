@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install bandit
-      - run: bandit -r app.py
+      - run: bandit -r index.py
 
   test:
     runs-on: ubuntu-latest
