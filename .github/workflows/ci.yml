@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: flake8 app.py test_app.py
+      - run: flake8 index.py test_app.py
 
   security:
     runs-on: ubuntu-latest
