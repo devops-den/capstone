@@ -1,11 +1,6 @@
-import json
+def add(a, b):
+    return a + b
 
 
-def handler(event, context):
-    return {
-        "statusCode": 200,
-        "body": json.dumps({
-            "message": "Hello from TechM Capstone Free-Tier Lambda!",
-            "status": "healthy"
-        })
-    }
+if __name__ == "__main__":
+    print(add(2, 3))

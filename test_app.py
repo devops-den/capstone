@@ -1,4 +1,4 @@
-from app import add
+from index import add
 
 
 def test_add():
